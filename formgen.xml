@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formgen>
+  <counter>6</counter>
+  <question>
+    <ask>Nigeria is cool</ask>
+
+    <option>true</option><option>false</option><option>none</option>
+  </question>
+  <question>
+    <ask>Is Ghana a country</ask>
+
+    <option>false</option><option>true</option><option>none</option>
+  </question>
+<question><ask>run</ask><option>why</option></question><question><ask>Should Buhari Run for President??</ask><option>Yes</option><option>No</option></question><question><ask>Is this working?</ask><option>Yes</option><option>No</option></question><question><ask>Is this working?</ask><option>Yes</option><option>No</option></question><question><ask>temp</ask><option/><option/></question></formgen>
