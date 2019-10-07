@@ -1,0 +1,105 @@
+		
+		#login {
+			background-color: #4d60a5;
+			color: white;
+		}
+		#home{
+			color: 	#fff;
+			text-transform: uppercase;
+			background: #4d60a5 url(./../img/bg-img.jpg);
+			padding: 0;
+		}
+		#reg_hosp {
+			background: #fff;
+			color: #000;
+		}
+		#features{
+			text-align: center; background-color: #4d60a5;
+			color: #fff;
+		}
+		
+
+		h1{
+			font-size: 40.5px; font-family: 'raleway-heavy', sans-serif;	
+		}
+		p{
+			font-size: 16px;
+		}
+		.nav{
+    		text-align: center;
+    		border-radius: 10px 10px 0 0;
+    		
+    	}
+    	.bar{
+    		color: black;
+    		font-family: monospace;
+    		font-size: 20px;
+    		transition: 2s;
+    		background-color: white;
+    	}
+    	.panel{
+    		border-radius: 0 0 5px 5px;
+    		background-color: rgba(255, 255, 255, 0.6);
+    	}
+    	.bar:hover{
+    		cursor: pointer;
+    		box-shadow: 0 0 6px black;
+    	}
+    	.header{
+    		text-align: center;
+    		color: #ffdd00;
+    	}
+    	.mbutton{
+    		background-color: #ffdd00;
+    		color: black;
+    	}
+    	.mbutton:hover{
+    		cursor: pointer;
+    		box-shadow:0 0 5px #ffdd00;
+
+    	}
+		@media only screen and (max-width: 860px){
+
+			.download-app{
+				position: relative;
+				right: 0;
+				width: 40%;
+			    margin-right: 5%;
+			    text-align: center;
+			}
+			span{
+				padding: 10%;
+				margin: 10%;
+
+			}
+			h1{
+				font-size: 20px;
+			}
+			h5{
+				font-size: 10px;
+			}
+			p, .here{
+				font-size: 10px;
+			}
+
+			.hos_pointer{
+				width: 8.33%;
+				margin-left: 4.16%;
+			}
+			.signin{
+    			width: 80%;
+    			margin-left: 10%;
+    			border:1;
+    		}
+    		.signinbar{
+    			width: 50%;
+    			float: left;
+    			margin-left: 0;
+    		}
+    		.signupbar{
+    			width: 50%;
+    			float: left;
+    			margin-left: 0;
+    		}
+
+		}

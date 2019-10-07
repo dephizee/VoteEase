@@ -1,0 +1,67 @@
+		.survey{
+    		background-color: #4d60a5;
+    		top: 12.5%;
+    		transition: 2s;
+    	}
+        .main-navigation a li{
+            color: white;
+            background-color: #ffdd0000
+        }
+        .nav-bar{
+            position: relative;
+            background-color: #4d60a5;
+            color: #fff;
+        }
+        .logo{
+            width: 30%;
+            height: auto;
+        }
+        .mainlogo{
+            width: 35%;
+            height: auto;
+        }
+    	.close{
+    		position: absolute;
+    		top: 5%;
+    		right: 3%;
+            color: red;
+    	}
+    	.close:hover{
+    		cursor: pointer;
+    		box-shadow:0 0 5px #fff;
+
+    	}
+    	.header{
+    		text-align: center;
+    		
+    		font-size: 2em;
+    		color: #ffdd00;
+    	}
+    	.poll_item{
+    		margin:3px;
+            margin-left: 5%;
+            width: 90%;
+
+    	}
+        .poll_item:hover, #results .poll_item:hover{
+            border-bottom: 1px solid #ffdd00;
+        }
+        #recentpost{
+            background-color: #4d60a5;
+            color: #fff;
+        }
+        #results .poll_item{
+            
+            border-bottom: 1px solid #4d60a5;
+        }
+        .search{
+            text-align: center; font-family: monospace; font-size: 3em; color: #ffdd00;
+        }
+        @media only screen and (max-width: 860px){
+            .main_search_field{
+                width: 70%;
+            }
+            .mbutton{
+                width: 30%;
+            }
+       }

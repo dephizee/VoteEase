@@ -1,0 +1,124 @@
+      .mbut{
+        height: 40px;
+        border-width: 0;
+        text-align: center;
+        width: 32%;
+        transition: 2s;
+        color: black;
+        background-color: #ffffff00;
+        color: white;
+      }
+      .mbut:hover{
+        cursor: pointer;
+        border-color: white;
+      }
+      .mbut  i:hover{
+        color: #ffdd00;
+      }
+      .options_img_supplied{
+        display: none;
+      }
+      .options_class{
+        /*display: -ms-flexbox;
+        display: flex;*/
+      }
+      .options_class:hover > img{
+        display: block;
+      }
+      .options_class:hover > i{
+
+      }
+      .attach_icon{
+        font-size: 12px;
+        color: #4d60a5;
+      }
+      .input_icon{
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        border: 1px solid #4d60a5;
+      }
+  
+      .mediaspan{
+        position: absolute;
+        right: 5%;
+        top: 15%;
+        display: none;
+      }
+      .mediaspan:hover {
+        cursor: pointer;
+      }
+      .options_supplied{
+        border: 0px solid #4d60a5;
+        width: 100%;
+        margin: 0;
+        outline: none;
+      }
+      .container_div:hover > .mediaspan{
+        display:block;  
+      }
+      .submit_polls{
+        background-color: #4d60a5;
+        margin: 20px;
+        text-align: center;
+        font-family: serif;
+        cursor: pointer;
+        color: #fff;
+        position: fixed;
+        z-index: 2;
+        right: 0;
+        bottom: 0;
+        box-shadow:0 0 5px #4d60a5;
+      }
+      .survey_title{
+        background-color: #4d60a5;
+        padding: 30px;
+        text-align: center;
+        color: #fff;
+        font-family: cursive;
+      }
+      .questions{
+        border: 1px solid #4d60a5;
+        width: 32.8%;
+        margin-left: 0.5%;
+        margin-top: 0.5%;
+
+      }
+      #questions{
+        background-color: #4d60a525;
+        padding: 10px;
+      }
+        @media only screen and (max-width: 768px){
+          .mediaspan{
+            position: absolute;
+            right: 15%;
+            top: 5%;
+          }
+          .options_img_supplied{
+            max-width: 200px;
+            height: auto;
+          }
+          .img_bar{
+            margin: 0;
+          }
+          .mbut{
+            width: 30%;
+          }
+          .questions{
+            border: 1px solid #4d60a5;
+            width: 98.5%;
+            margin-left: 1.5%;
+            margin-top: 0.5%;
+          }
+          .survey_title{
+            margin-top: 100px;
+          }
+          .submit_polls{
+            width: 50%;
+            padding: 2%;
+            margin: 0;
+
+          }
+        }

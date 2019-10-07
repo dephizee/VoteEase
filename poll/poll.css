@@ -1,0 +1,363 @@
+	.survey_title{
+        text-align: center;
+        font-size: 2em;
+        text-transform: uppercase;
+        background-color: #4d60a5;
+        color: white;
+      }
+      .votebar{
+        background-color: #4c36ef;
+        color: #4c36ef;
+        border-style: solid;
+        border-width: 0;
+      	border-right-width: 2;
+      	border-right-color: #ffdd00;
+        transition: 2s;
+      }
+      input{
+        height: 40px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        text-align: center;
+        width: 80%;
+        margin: 5px;
+        color: white;
+        transition: 2s;
+        color: black;
+      }
+      .question{
+        margin-top: 2%;
+      }
+      .survey{
+        z-index: 1;
+        position: fixed;
+        background-image: url("images/4.jpg");
+        box-shadow:0 0 50px #146941;
+        top: 12.5%;
+        visibility: hidden;
+        display: none;
+        transition: 2s;
+      }
+      .modal{
+        position: fixed;
+        z-index: 2;
+        display: none;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 4%;
+
+      }
+      .modal-content {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+        max-width: 40%;
+      }
+      @keyframes zoom {
+          from {transform: scale(0.1)}
+          to {transform: scale(1)}
+      }
+      .close{
+      	background-color: #4d60a5;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .close:hover{
+        cursor: pointer;
+      }
+      .find{
+        padding: 8px;
+      }
+      .mbutton{
+        background-color: rgb(255, 221, 0);
+        color: white;
+        margin-top: 2%;
+        height: 50px;
+      }
+      .logo{
+          width: 30%;
+          height: auto;
+      }
+      .mbutton:hover{
+        cursor: pointer;
+        box-shadow:0 0 5px #146941;
+
+      }
+      body{
+      	/*padding-top: 10px;*/
+      	            /*background-image: url("images/1.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;*/
+            /*background-color: rgba(30, 0, 30, 0.5);
+            color: white;*/
+        }
+       .main_holder{
+       		background-color: #4d60a525;
+       		border-top: 20px solid #4d60a5;
+       }
+      
+      .nav{
+        text-align: center;
+        background-color: #146941;
+        border-radius: 10px 10px 0 0;
+        border-color: black;
+      }
+      .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .col-offset-1 {margin-left: 4.16%;}
+    .col-offset-2 {margin-left: 8.33%;}
+    .col-offset-3 {margin-left: 12.5%;}
+    .col-offset-4 {margin-left: 16.66%;}
+    .col-offset-5 {margin-left: 20.83%;}
+    .col-offset-6 {margin-left: 25%;}
+    .col-offset-7 {margin-left: 29.16%;}
+    .col-offset-8 {margin-left: 33.33%;}
+    .col-offset-9 {margin-left: 37.5%;}
+    .col-offset-10 {margin-left: 41.66%;}
+    .col-offset-11 {margin-left: 45.5%;}
+    .col-offset-12 {margin-left: 50%;}
+
+    .main_poll_container{
+      	box-shadow: 0 0 2px #4d60a5;
+      }
+	.unit_container{
+		box-shadow: 0 0 4px #4d60a5; margin-bottom:2%;
+	}
+  .poll_status_header{
+    float: right;border: 1px solid #146941;
+  }
+	.unit_item{
+		margin: 0;
+		padding: 0;
+		
+		color: #4d60a5;
+		vertical-align: middle;
+		text-align: center;
+		margin-bottom: 5px;
+		border-bottom: 1px solid #4d60a5;
+	}
+	.pat_toggle{
+		background-color: #ffdd00;
+		color: #fff;
+		font-size: 2em;
+		font-weight: 2em;
+		cursor: pointer;
+		text-align: center;
+		padding: 20px;
+		
+		
+	}
+	.pat_toggle:hover{
+		background-color: #4d60a590;
+	}
+	.pat_toggle:active{
+		background-color: grey;
+	}
+	.v_panel{
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.2s ease-out;
+
+	}
+  .count_number{
+    background-color: #4d60a5; 
+    color: #fff;
+    padding: 0;
+    font-size: 1.2em; 
+    font-family: serif;
+    font-weight: 900;
+    padding: 10px;
+    padding-left: 5px;
+  }
+  .count_case{
+    background-color:  #ffffff59; padding: 2px;
+  }
+  .date_pane{
+    padding: 0;
+    margin: 0;
+    color: #4d60a5;
+  }
+  h4.date_pane{
+    padding: 5px;
+    color: #fff;
+    background-color: #4d60a5;
+  }
+  .count_number_sub{
+    background-color: #ffdd0090; 
+    color: #fff;
+
+    font-family: monospace;
+    font-weight: 800;
+    padding: 0px;
+    margin: 0;
+    padding-left: 0;
+
+  }
+	.edit{
+		right: 0;
+		bottom: 0;
+		background-color: #ffdd00;
+		color: #fff;
+		position: fixed;
+		margin: 20px;
+		cursor: pointer;
+		font-size: 2em;
+	}
+  .customize-panel{
+      background-color: grey;
+      color: #fff;
+      position: fixed;
+      z-index: 2;
+      margin-top: -1000%;
+      transition: 2s;
+  }
+  .time_case{
+    background-color:  #4d60a590;
+  }
+.poll_status_header{
+    background: green;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: 700;
+   }
+   .myModal{
+    z-index: -3;
+   }
+  .time_case h3, .date_case h3{
+    padding: 0; margin: 0; color: #4d60a5;
+  }
+	@media only screen and (max-width: 768px){
+      [class*=col-]{
+        width: 90%;
+        margin-left: 5%;
+        padding: 0px;
+        }
+      .imageclass{
+        width: 40%;
+        margin-left: 30%;
+      }
+      .modal-content {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+        max-width: 800px;
+      }
+      .model{
+        padding: 0;
+      }
+      .close{
+        left: 95%;
+        top: 0;
+
+      }
+      .main_poll_container{
+      	box-shadow: 0 0 0px; 
+      	border-width: 0;
+  
+      	padding: 0;
+      }
+      .unit_container{
+		
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		margin-top: 20px;
+		}
+	.unit_item{
+		width: 100%;
+		margin: 0;
+
+		
+	}
+      .votebar{
+      	height: 40px;
+      	padding: 0;
+      	margin-left:0;       	
+      }
+      .col-3{
+      	width: 100%;
+      	margin: 0;
+      	padding-top: 10px;
+      	
+
+      }
+      .votevalue{
+      	width: 100%;
+      	margin: 0;
+      	padding-top: 10px;
+      }
+      .votebar_containter{
+
+      	width: 100%;
+      	padding: 0;
+      	margin: 0;
+      	margin-top: 10px;
+      }
+      .survey_title, .main_time_date, .poll_status_header{
+          width: 100%;
+          margin: 0;
+          padding: 1%;
+          text-align: center;
+     }
+
+      .main_holder{
+      		width: 100%;
+       		padding: 0;
+       		margin: 0;
+       }
+       .selection{
+       	height: 40px;
+       	margin: 10px;
+       }
+       .question_container{
+       	 color : #fff; background-color: #ffdd00;
+       }
+       h4.date_pane{
+        padding: 5px;
+      }
+      .count_case{
+        width: 25%;        
+        padding: 0px;
+        margin: 0;
+      }
+      .count_number_sub{
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      .edit{
+        width: 25%;
+        text-align: center;
+      }
+      .time_case, .date_case{
+        width: 50%;
+        padding: 0;
+        margin: 0;
+      }
+      .time_case{
+        margin-top: 5%;
+      }
+      span{
+          padding: 10%;
+          margin: 10%;
+
+      }
+      .nav-bar{
+
+        margin: 0;
+        width: 100%;
+        position: relative;
+      }
+
+    }

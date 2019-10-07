@@ -1,0 +1,82 @@
+		.survey{
+    		background-color: #4d60a5;
+    		top: 12.5%;
+    		transition: 2s;
+    	}
+        .logo{
+            width: 30%;
+            height: auto;
+        }
+        .mainlogo{
+            width: 35%;
+            height: auto;
+        }
+    	.close{
+    		position: absolute;
+    		top: 5%;
+    		right: 3%;
+            color: red;
+    	}
+    	.close:hover{
+    		cursor: pointer;
+    		box-shadow:0 0 5px #fff;
+
+    	}
+    	.header{
+    		text-align: center;
+    		
+    		font-size: 2em;
+    		color: #ffdd00;
+    	}
+    	.poll_item{
+    		margin:3px;
+            margin-left: 5%;
+            width: 90%;
+
+    	}
+
+        .date_container{
+            border-color: black;
+            border-width: 1px;
+            background-color: #fff;
+            border-style: solid;
+            padding: 0;
+            text-align: center;
+            vertical-align: middle;
+            margin-bottom: 10px;
+        }
+        .date_label{
+            padding-top: 7px;
+        }
+        .date_input{
+            border-width: 0;
+            margin: 0;
+        }
+        .poll_item:hover, #myvotes .poll_item:hover{
+            border-bottom: 1px solid #ffdd00;
+        }
+        #recentpost, #active_polls{
+            background-color: #4d60a5;
+            color: #fff;
+        }
+        .a_more:hover, .r_more:hover{
+            cursor: pointer;
+        }
+        .a_more, .r_more{
+
+            text-align: center;
+            border: 1px solid  #4d60a5;
+            color: #4d60a5;
+            margin-top: 1%;
+        }
+        #myvotes .poll_item{
+            
+            border-bottom: 1px solid #4d60a5;
+        }
+        
+
+       @media only screen and (max-width: 768px){
+          .header_a{
+            margin-top: 20%;
+            }
+        }
